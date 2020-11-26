@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x=prompt('Nhap C de chuyen doi tu do C sang F va nhap F de doi tu do F sang do C');
+    let degree= prompt('Enter value');
+    let result;
+    if (x=='C' || x=='c'){
+        result= (degree* 9/5)+ 32;
+        alert('Do C: ' + degree +' tuong ung '+ result +' do F');
+    } else if( x=='F'|| x=='f'){
+        result= (degree-32)* 5/9;
+        alert('Do F: '+ degree + ' tuong ung '+ result + ' do C');
+    } else
+        alert('Ban nhap khong dung');
+</script>
+
+</body>
+</html>
